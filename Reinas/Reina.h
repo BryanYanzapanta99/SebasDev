@@ -1,16 +1,4 @@
-/*
-	Universidad de las Fuerzas Armadas "ESPE"
-	Ingenieria de Software
-	Autores:
-	@Fausto Vizuete
-	@Sebastian Yanzapata
-	@Jonathan Zapata
-	@Christopher Yepez
-	@Vanessa Zurita
-	Enunciado: reinas
-	Fecha de creacion: 05/09/2021
-	Fecha de modificacion: 06/09/2021
-*/
+
 #pragma once
 #include <iostream>
 #include <math.h>
