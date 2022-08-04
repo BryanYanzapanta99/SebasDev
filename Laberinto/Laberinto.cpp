@@ -1,16 +1,4 @@
-/*
-	Universidad de las Fuerzas Armadas "ESPE"
-	Ingenieria de Software
-	Autores:
-	@Fausto Vizuete
-	@Sebastian Yanzapata
-	@Jonathan Zapata
-	@Christopher Yepez
-	@Vanessa Zurita
-	Enunciado: 
-	Fecha de creacion: 0/09/2021
-	Fecha de modificacion: 06/09/2021
-*/
+
 #include "Laberinto.h"
 
 bool Laberinto::backtraking(int maze[N][N], int x, int y, int sol[N][N])
