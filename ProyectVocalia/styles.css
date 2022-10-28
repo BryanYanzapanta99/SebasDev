@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/campo-de-f%C3%BAtbol-de-la-arena-del-estadio-de-la-noche-57870298.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+td {
+    color: aliceblue;
+    font-size: 1.5rem;
+
+}
+
+.numberStyle {
+    width: 2rem;
+}
+
+.playerStyle {
+    width: 21rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+table {
+   width: 100%;
+   background-position: center;
+}
+
+.botonDeEn {
+    text-align: center;
+    font-size: 20px;
+}
+
+.botonDeEn input {
+    background-color: rgb(186, 194, 194);
+    font-size: 20px;
+}

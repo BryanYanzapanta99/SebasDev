@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Vocalia</title>
+</head>
+
+<body>
+    <form action="index.php" method="post">
+        <table>
+            <tr>
+                <td>Liga:</td>
+                <td><input type="text" placeholder="Nombre de la liga" name="liga" /> </td>
+            </tr>
+            <tr>
+                <td>N° de Vocalia:</td>
+                <td><input type="number" min="0" max="12" name="numberVocalia"/></td>
+            </tr>
+            <tr>
+                <td>Lugar:</td>
+                <td><input type="text" placeholder="Lugar Cancha " name="lugar" /></td>
+
+                <td>Fecha:</td>
+                <td><input type="date" name="date"/></td>
+
+                <td>Hora:</td>
+                <td><input type="time" name="hour"/></td>
+            </tr>
+            <tr>
+                <td>Categoria:</td>
+                <td>
+                    <select name="categoria"required>
+                        <option value=""></option>
+                        <option value="Master">Master</option>
+                        <option value="Juvenil">Juvenil</option>
+                        <option value="Juvenil">Senior</option>
+                    </select>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td>Arbitro:</td>
+                <td><input type="text" placeholder="Nombre del Arbitro" name="referee"/></td>
+                <td>Vocal:</td>
+                <td><input type="text" placeholder="Nombre del Vocal" name="vocal"/></td>
+            </tr>
+            <tr>
+                <td>Equipo 1</td>
+                <td><input type="text" placeholder="Nombre Equipo" name="team1"/></td>
+                <td>Equipo 2</td>
+                <td><input type="text" placeholder="Nombre Equipo" name="team2" /></td>
+            </tr>
+            <tr>
+                <td>Lista de Jugadores</td>
+            </tr>
+        </table>
+        <table>
+            <td>Titulares Equipo 1
+                <ul>
+                    <li><input type="number" name="" class="numberStyle" min="1" placeholder="N°"> <input type="text"
+                            name="" id="" class="playerStyle" placeholder="Nombre del jugador"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                </ul>
+            </td>
+
+            <td>Titulares Equipo 2
+                <ul>
+                    <li><input type="number" name="" class="numberStyle" min="1" placeholder="N°"> <input type="text"
+                            name="" id="" class="playerStyle" placeholder="Nombre del jugador"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                </ul>
+            </td>
+        </table>
+
+
+        <table>
+            <td>Suplentes Equipo 1
+                <ul>
+                    <li><input type="number" name="" class="numberStyle" min="1" placeholder="N°"> <input type="text"
+                            name="" id="" class="playerStyle" placeholder="Nombre del jugador"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                </ul>
+
+            </td>
+            <td>Suplentes Equipo 2
+                <ul>
+                    <li><input type="number" name="" class="numberStyle" min="1" placeholder="N°"> <input type="text"
+                            name="" id="" class="playerStyle" placeholder="Nombre del jugador"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                    <li><input type="number" name="" class="numberStyle" min="1"> <input type="text" name="" id=""
+                            class="playerStyle"></li>
+                </ul>
+            </td>
+        </table>
+
+        <table>
+            <tr>
+                <td>Informe Arbitral:
+                    <textarea rows="2" cols="60" name="comment" form="usrform"></textarea>
+            
+            <td>Informe Vocal:
+                <textarea rows="2" cols="60" name="comment" form="usrform"></textarea></tr>
+            </td>
+        </tr>
+        </table>
+        <div class="botonDeEn"> <input  type="submit" value="Registrar Vocalia"></div>
+        
+    </form>
+</body>
+
+</html>
